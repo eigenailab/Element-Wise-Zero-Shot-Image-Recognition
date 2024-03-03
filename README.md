@@ -1,26 +1,23 @@
-# Awesome-Fine-Grained-Zero-Shot-Learning
+# Awesome-Fine-Grained-Zero-Shot-Learning ![](https://img.shields.io/badge/Awesome-FZSL-blue)
 A summarization of representative fine-grained zero-shot learning methods, covering publicly available datasets, models, implementations, etc.
-
-Under construction, will come back soon.
-
-# Awesome-Fine-Grained-Few-Shot-Learning [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)  
-
-
-A curated list of resources including papers, datasets, and relevant links about few-shot learning in fine-grained image/video recognition. Since both few-shot and fine-grained are very broad concepts, there are various experimental settings and research lines in the realm of fine-grained few-shot learning. 
 
 --------------------------------------------------------------------------------------
 
-:running: **We will keep updating it,  please feel free to send me a PR!** :running:  
-:triangular_flag_on_post: **indicates some interesting or inspiring ideas**  
+:running: **We will keep updating it,  please feel free to send me a PR!** 
 
 --------------------------------------------------------------------------------------
 
 # Datasets Download    
- - **CUB_200_2011** [Dataset Page](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) | [Download Link](https://drive.google.com/file/d/1hbzc_P1FuxMkcabkgn9ZKinBwW683j45/view)
- - **FGVC-Aircraft** [Dataset Page](http://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/) | [Download Link](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/archives/fgvc-aircraft-2013b.tar.gz)
- - **iNaturalist2017** [Dataset Page](https://github.com/visipedia/inat_comp/tree/master/2017) | [Download Data](https://ml-inat-competition-datasets.s3.amazonaws.com/2017/train_val_images.tar.gz) | [Download Annotations](https://ml-inat-competition-datasets.s3.amazonaws.com/2017/train_2017_bboxes.zip)
- - **Stanford-Cars** [Dataset Page](http://ai.stanford.edu/~jkrause/cars/car_dataset.html)  
- - **Stanford-Dogs** [Dataset Page](http://vision.stanford.edu/aditya86/ImageNetDogs/)
+
+&#x1F493;: Fine-Grained Dataset
+- &#x1F493; **CUB_200_2011** [Paper](https://www.florian-schroff.de/publications/CUB-200.pdf) | [Download Link](https://www.vision.caltech.edu/datasets/cub_200_2011/)
+- &#x1F493; **Oxford Flowers** [Paper](https://ieeexplore.ieee.org/abstract/document/4756141) | [Download Link](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
+- &#x1F493; **SUN Attribute** [Paper](https://ieeexplore.ieee.org/abstract/document/6247998) | [Download Link](https://cs.brown.edu/~gmpatter/sunattributes.html)
+- &#x1F493; **NABirds** [Paper](https://openaccess.thecvf.com/content_cvpr_2015/papers/Horn_Building_a_Bird_2015_CVPR_paper.pdf) | [Download Link](https://dl.allaboutbirds.org/nabirds)
+- &#x1F493; **DeepFashion** [Paper](https://openaccess.thecvf.com/content_cvpr_2016/papers/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.pdf) | [Download Link](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)
+- **Animals with Attributes** [Paper](https://ieeexplore.ieee.org/abstract/document/6571196) | [Download Link](https://cvml.ista.ac.at/AwA/)
+- **Animals with Attributes (2)** [Paper](https://ieeexplore.ieee.org/abstract/document/8413121) | [Download Link](https://cvml.ista.ac.at/AwA2/)
+- **Attribute Pascal and Yahoo** [Paper](https://ieeexplore.ieee.org/abstract/document/5206772) | [Download Link](https://vision.cs.uiuc.edu/attributes/)
 
 --------------------------------------------------------------------------------------
 
