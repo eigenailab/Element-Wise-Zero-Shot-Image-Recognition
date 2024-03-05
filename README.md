@@ -3,34 +3,42 @@ A summarization of representative fine-grained zero-shot learning methods, cover
 
 --------------------------------------------------------------------------------------
 
-:running: **We will keep updating it,  please feel free to send me a PR!** 
+:running: **We will keep updating it. If you find any mistake or have any advice, please feel free to contact us** 
 
 --------------------------------------------------------------------------------------
 
 # Datasets Download    
 
 &#x1F493;: Fine-Grained Dataset
-- &#x1F493; **CUB_200_2011** [Paper](https://www.florian-schroff.de/publications/CUB-200.pdf) | [Download Link](https://www.vision.caltech.edu/datasets/cub_200_2011/)
-- &#x1F493; **Oxford Flowers** [Paper](https://ieeexplore.ieee.org/abstract/document/4756141) | [Download Link](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
-- &#x1F493; **SUN Attribute** [Paper](https://ieeexplore.ieee.org/abstract/document/6247998) | [Download Link](https://cs.brown.edu/~gmpatter/sunattributes.html)
+- &#x1F493; **CUB_200_2011 (CUB)** [Paper](https://www.florian-schroff.de/publications/CUB-200.pdf) | [Download Link](https://www.vision.caltech.edu/datasets/cub_200_2011/)
+- &#x1F493; **Oxford Flowers (FLO)** [Paper](https://ieeexplore.ieee.org/abstract/document/4756141) | [Download Link](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
+- &#x1F493; **SUN Attribute (SUN)** [Paper](https://ieeexplore.ieee.org/abstract/document/6247998) | [Download Link](https://cs.brown.edu/~gmpatter/sunattributes.html)
 - &#x1F493; **NABirds** [Paper](https://openaccess.thecvf.com/content_cvpr_2015/papers/Horn_Building_a_Bird_2015_CVPR_paper.pdf) | [Download Link](https://dl.allaboutbirds.org/nabirds)
 - &#x1F493; **DeepFashion** [Paper](https://openaccess.thecvf.com/content_cvpr_2016/papers/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.pdf) | [Download Link](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)
-- **Animals with Attributes** [Paper](https://ieeexplore.ieee.org/abstract/document/6571196) | [Download Link](https://cvml.ista.ac.at/AwA/)
-- **Animals with Attributes (2)** [Paper](https://ieeexplore.ieee.org/abstract/document/8413121) | [Download Link](https://cvml.ista.ac.at/AwA2/)
-- **Attribute Pascal and Yahoo** [Paper](https://ieeexplore.ieee.org/abstract/document/5206772) | [Download Link](https://vision.cs.uiuc.edu/attributes/)
+- **Animals with Attributes (AWA)** [Paper](https://ieeexplore.ieee.org/abstract/document/6571196) | [Download Link](https://cvml.ista.ac.at/AwA/)
+- **Animals with Attributes (2) (AWA2)** [Paper](https://ieeexplore.ieee.org/abstract/document/8413121) | [Download Link](https://cvml.ista.ac.at/AwA2/)
+- **Attribute Pascal and Yahoo (APY)** [Paper](https://ieeexplore.ieee.org/abstract/document/5206772) | [Download Link](https://vision.cs.uiuc.edu/attributes/)
 
 --------------------------------------------------------------------------------------
 
-# Image Classification
+# Attention-Based Methods
+      
+**Title** | **Venue** | **Backbone** | **FineTune** | **Resolution** | **Datasets** | **Code**   
+:-: | :-: | :-  | :-: | :-: | :-: | :-: |
+[Discriminative learning of latent features for zero-shot recognition](https://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Discriminative_Learning_of_CVPR_2018_paper.pdf) | CVPR'18 | GoogleNet, VGG19 | ✔️ | 224x224 | CUB, AWA | [Code](https://github.com/zbxzc35/Zero_shot_learning_using_LDF_tensorflow)
+[Attribute Attention for Semantic Disambiguation in Zero-Shot Learning](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Attribute_Attention_for_Semantic_Disambiguation_in_Zero-Shot_Learning_ICCV_2019_paper.pdf) | ICCV'19 | GoogleNet, ResNet101, VGG19 | ✔️ | 224x224 | CUB, SUN, AWA2 | [Code](https://github.com/ZJULearning/AttentionZSL)
+[Attentive Region Embedding Network for Zero-shot Learning](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xie_Attentive_Region_Embedding_Network_for_Zero-Shot_Learning_CVPR_2019_paper.pdf) | CVPR'19 | ResNet101 | ✔️ | 224x224 | CUB, SUN, AWA2, APY | [Code](https://github.com/gsx0/Attentive-Region-Embedding-Network-for-Zero-shot-Learning)
+[Semantic-Guided Multi-Attention Localization for Zero-Shot Learning](https://proceedings.neurips.cc/paper_files/paper/2019/file/172fd0d638b3282151bd8f3d652cb640-Paper.pdf) | NeurIPS'19 | VGG19 | ✔️ | 448x448 | CUB, FLO, AWA | [Code](https://github.com/wuhuicumt/LearningWhereToLook/tree/master)
+[Region Graph Embedding Network for Zero-Shot Learning](https://link.springer.com/chapter/10.1007/978-3-030-58548-8_33) | ECCV'20 | ResNet101 | ✔️ | 224x224 | CUB, SUN, AWA2, APY | Code
+[Fine-Grained Generalized Zero-Shot Learning via Dense Attribute-Based Attention](https://openaccess.thecvf.com/content_CVPR_2020/papers/Huynh_Fine-Grained_Generalized_Zero-Shot_Learning_via_Dense_Attribute-Based_Attention_CVPR_2020_paper.pdf) | CVPR'20 | ResNet101 | ❌ | 224x224 | CUB, SUN, DeepFashion, AWA2 | [Code](https://github.com/hbdat/cvpr20_DAZLE)
+[Region Semantically Aligned Network for Zero-Shot Learning](https://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Discriminative_Learning_of_CVPR_2018_paper.pdf) | CIKM'21 | ResNet101 | - | 448x448 | CUB, SUN, AWA2 | Code
+[Goal-Oriented Gaze Estimation for Zero-Shot Learning](https://openaccess.thecvf.com/content/CVPR2021/papers/Liu_Goal-Oriented_Gaze_Estimation_for_Zero-Shot_Learning_CVPR_2021_paper.pdf) | CVPR'21 | ResNet101 | ✔️ | 448x448 | CUB, SUN, AWA2 | [Code](https://github.com/osierboy/GEM-ZSL)
+[I2DFormer: Learning Image to Document Attention for Zero-Shot Image Classification](https://proceedings.neurips.cc/paper_files/paper/2022/file/4fca3029c9ead4551937ed6987502e5f-Paper-Conference.pdf) | NeurIPS'22 | ViT-B | ✔️ | 224x224 | CUB, FLO, AWA2 | [Code](https://github.com/ferjad/I2DFormer)
+[MSDN: Mutually Semantic Distillation Network for Zero-Shot Learning](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_MSDN_Mutually_Semantic_Distillation_Network_for_Zero-Shot_Learning_CVPR_2022_paper.pdf) | CVPR'22 | ResNet101 | ❌ | 448x448 | CUB, SUN, AWA2 | [Code](https://github.com/shiming-chen/MSDN)
+[TransZero: Attribute-Guided Transformer for Zero-Shot Learning](https://ojs.aaai.org/index.php/AAAI/article/view/19909) | AAAI'22 | ResNet101 | ❌ | 448x448 | CUB, SUN, AWA2 | [Code](https://github.com/shiming-chen/TransZero)
+[DUET: Cross-Modal Semantic Grounding for Contrastive Zero-Shot Learning](https://ojs.aaai.org/index.php/AAAI/article/view/25114) | AAAI'23 | ViT-B | ✔️ | 224x224 | CUB, SUN, AWA2 | [Code](https://github.com/zjukg/DUET)
+[Progressive Semantic-Visual Mutual Adaption for Generalized Zero-Shot Learning](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Progressive_Semantic-Visual_Mutual_Adaption_for_Generalized_Zero-Shot_Learning_CVPR_2023_paper.pdf) | CVPR'23 | ViT-B | ✔️ | 224x224 | CUB, SUN, AWA2 | [Code](https://github.com/ManLiuCoder/PSVMA)
 
-## 2023        
-**:open_file_folder:** | **Pub.** | **Title** | **Links** 
-:-: | :-: | :-  | :-:   
-:triangular_flag_on_post: | **AAAI** | Bi-directional Feature Reconstruction Network for Fine-Grained Few-Shot Image Classification | [Paper](https://arxiv.org/abs/2211.17161)/[Code](https://github.com/PRIS-CV/Bi-FRN)   
-:triangular_flag_on_post: | **TCSVT** | Boosting Few-shot Fine-grained Recognition with Background Suppression and Foreground Alignment | [Paper](https://arxiv.org/abs/2210.01439)/[Code](https://github.com/CSer-Tang-hao/BSFA-FSFG)    
-:scroll: | **TCSVT** | Locally-Enriched Cross-Reconstruction for Few-Shot Fine-Grained Image Classification | [Paper](https://ieeexplore.ieee.org/abstract/document/10123101)/[Code](https://github.com/lutsong/LCCRN)    
-:scroll: | **arXiv** | Saliency-Guided Mutual Learning Network for Few-shot Fine-grained Visual Recognition | [Paper](https://arxiv.org/abs/2305.07180)/Code      
-:triangular_flag_on_post: | **arXiv** | Detail Reinforcement Diffusion Model: Augmentation Fine-Grained Visual Categorization in Few-Shot Conditions | [Paper](https://arxiv.org/abs/2309.08097)/Code      
 
 ## 2022       
 **:open_file_folder:** | **Pub.** | **Title** | **Links** 
