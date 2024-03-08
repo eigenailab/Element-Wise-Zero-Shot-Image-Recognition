@@ -78,11 +78,11 @@ A summarization of representative fine-grained zero-shot learning methods, cover
 :-: | :-: | :-  | :-: | :-: | :-: | :-: |
 [Multi-Cue Zero-Shot Learning with Strong Supervision](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Akata_Multi-Cue_Zero-Shot_Learning_CVPR_2016_paper.pdf) | CVPR'16 | VGG16 | ❌ | 224x224 | CUB | Code
 
-# Citation
+## Citation
 
 @article{guo2024fine,
   title={Fine-Grained Zero-Shot Learning: Advances, Challenges, and Prospects},
-  author={Guo, Jingcai and Rao, Zhijie and Guo, Song and Zhou, Jingren and Tao, Dacheng},
+  author={Guo, Jingcai and Rao, Zhijie and Chen, Zhi and Zhou, Jingren and Tao, Dacheng},
   journal={arXiv preprint arXiv:2401.17766},
   year={2024}
 }
