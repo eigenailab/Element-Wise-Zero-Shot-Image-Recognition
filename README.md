@@ -3,7 +3,7 @@ A summarization of representative fine-grained zero-shot learning methods, cover
 
 --------------------------------------------------------------------------------------
 
-:running: **If you find any mistake or have any advice, please feel free to contact us** 
+:running: **Please feel free to contact us if you have any advice.** 
 
 --------------------------------------------------------------------------------------
 
