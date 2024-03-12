@@ -1,23 +1,16 @@
 # Awesome-Fine-Grained-Zero-Shot-Learning ![](https://img.shields.io/badge/Awesome-FZSL-blue)
-A summarization of representative fine-grained zero-shot learning methods, covering publicly available datasets, models, implementations, etc.
+A summarization of representative fine-grained zero-shot learning methods, covering publicly available datasets, models, implementations, etc. Please feel free to contact us if you have any advice.
 
---------------------------------------------------------------------------------------
+# Datasets  
 
-:running: **Please feel free to contact us if you have any advice.** 
-
---------------------------------------------------------------------------------------
-
-# Datasets Download    
-
-&#x1F493;: Fine-Grained Dataset
-- &#x1F493; **CUB_200_2011 (CUB)** [Paper](https://www.florian-schroff.de/publications/CUB-200.pdf) | [Download Link](https://www.vision.caltech.edu/datasets/cub_200_2011/)
-- &#x1F493; **Oxford Flowers (FLO)** [Paper](https://ieeexplore.ieee.org/abstract/document/4756141) | [Download Link](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
-- &#x1F493; **SUN Attribute (SUN)** [Paper](https://ieeexplore.ieee.org/abstract/document/6247998) | [Download Link](https://cs.brown.edu/~gmpatter/sunattributes.html)
-- &#x1F493; **NABirds** [Paper](https://openaccess.thecvf.com/content_cvpr_2015/papers/Horn_Building_a_Bird_2015_CVPR_paper.pdf) | [Download Link](https://dl.allaboutbirds.org/nabirds)
-- &#x1F493; **DeepFashion** [Paper](https://openaccess.thecvf.com/content_cvpr_2016/papers/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.pdf) | [Download Link](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)
-- **Animals with Attributes (AWA)** [Paper](https://ieeexplore.ieee.org/abstract/document/6571196) | [Download Link](https://cvml.ista.ac.at/AwA/)
-- **Animals with Attributes (2) (AWA2)** [Paper](https://ieeexplore.ieee.org/abstract/document/8413121) | [Download Link](https://cvml.ista.ac.at/AwA2/)
-- **Attribute Pascal and Yahoo (APY)** [Paper](https://ieeexplore.ieee.org/abstract/document/5206772) | [Download Link](https://vision.cs.uiuc.edu/attributes/)
+- CUB: [Caltech-UCSD Birds 200](https://www.florian-schroff.de/publications/CUB-200.pdf) [[Download](https://www.vision.caltech.edu/datasets/cub_200_2011/)]
+- FLO: [Automated Flower Classification over a Large Number of Classes](https://ieeexplore.ieee.org/abstract/document/4756141) [[Download](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)]
+- SUN: [SUN attribute database: Discovering, annotating, and recognizing scene attributes](https://ieeexplore.ieee.org/abstract/document/6247998) [[Download](https://cs.brown.edu/~gmpatter/sunattributes.html)]
+- NABirds: [Building a bird recognition app and large scale dataset with citizen scientists: The fine print in fine-grained dataset collection](https://openaccess.thecvf.com/content_cvpr_2015/papers/Horn_Building_a_Bird_2015_CVPR_paper.pdf) [[Download](https://dl.allaboutbirds.org/nabirds)]
+- DeepFashion: [DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations](https://openaccess.thecvf.com/content_cvpr_2016/papers/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.pdf) [[Download](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)]
+- AWA: [Attribute-Based Classification for Zero-Shot Visual Object Categorization](https://ieeexplore.ieee.org/abstract/document/6571196) [[Download](https://cvml.ista.ac.at/AwA/)]
+- AWA2: [Zero-Shot Learning—A Comprehensive Evaluation of the Good, the Bad and the Ugly](https://ieeexplore.ieee.org/abstract/document/8413121) [[Download](https://cvml.ista.ac.at/AwA2/)]
+- APY: [Describing objects by their attributes](https://ieeexplore.ieee.org/abstract/document/5206772) [[Download](https://vision.cs.uiuc.edu/attributes/)]
 
 --------------------------------------------------------------------------------------
 
