@@ -78,10 +78,6 @@ A summarization of representative fine-grained zero-shot learning methods, cover
 :-: | :-: | :-  | :-: | :-: | :-: | :-: |
 [Multi-Cue Zero-Shot Learning with Strong Supervision](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Akata_Multi-Cue_Zero-Shot_Learning_CVPR_2016_paper.pdf) | CVPR'16 | VGG16 | ❌ | 224x224 | CUB | Code
 
-## References
-Part of this project is based on:
-1. [Awesome-FSL](https://github.com/CSer-Tang-hao/Awesome-Fine-Grained-Few-Shot-Learning)
-
 ## Citation
 
 @article{guo2024fine,
