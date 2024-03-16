@@ -2,6 +2,8 @@
 
 Recent zero-shot learning (ZSL) approaches have integrated fine-grained analysis, i.e.,**fine-grained ZSL**, to mitigate the commonly known seen/unseen domain bias and misaligned visual-semantics mapping problems, and have made profound progress. Notably, this paradigm differs from existing close-set fine-grained methods and, therefore, can pose unique and nontrivial challenges. However, to the best of our knowledge, there remains a lack of systematic summaries of this topic. To enrich the literature of this domain and provide a sound basis for its future development, in this work, we present a broad review of recent advances for fine-grained analysis in ZSL. Concretely, we first provide a **taxonomy** of existing methods and techniques with a thorough analysis of each category. Then, we summarize the **benchmark**, covering publicly available datasets, models, implementations, and some more details as a library. Last, we sketch out some related **applications**. In addition, we discuss vital **challenges** and suggest **potential future directions**.
 
+Note: this is a collection of representative fine-grained zero-shot learning methods, covering publicly available datasets, models, implementations, etc. For more detailed information, refer to the related [**Survey Paper**](https://arxiv.org/pdf/2401.17766).
+
 Please feel free to contact us ([jingcai.guo@ieee.org](jingcai.guo@ieee.org)) if you have any advice.
 
 # Datasets  
