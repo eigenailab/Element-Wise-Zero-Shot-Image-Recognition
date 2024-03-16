@@ -76,9 +76,14 @@ Please feel free to contact us ([jingcai.guo@ieee.org](jingcai.guo@ieee.org)) if
 
 ## Citation
 
-@article{guo2024fine,
-  title={Fine-Grained Zero-Shot Learning: Advances, Challenges, and Prospects},
-  author={Guo, Jingcai and Rao, Zhijie and Chen, Zhi and Zhou, Jingren and Tao, Dacheng},
-  journal={arXiv preprint arXiv:2401.17766},
-  year={2024}
-}
+    @article{guo2024fine,
+      author    = {Jingcai Guo and
+                   Zhijie Rao and
+                   Zhi Chen and
+                   Jingren Zhou and
+                   Dacheng Tao},
+      title     = {Fine-Grained Zero-Shot Learning: Advances, Challenges, and Prospects},
+      journal   = {arXiv preprint arXiv:2401.17766},
+      year      = {2024},
+      url       = {https://arxiv.org/abs/2401.17766}
+    }
