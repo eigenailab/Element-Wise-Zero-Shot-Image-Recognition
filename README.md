@@ -1,7 +1,8 @@
-# Awesome-Fine-Grained-Zero-Shot-Learning ![](https://img.shields.io/badge/Awesome-FZSL-blue)
+# Awesome-Fine-Grained-Zero-Shot-Learning
+
 A summarization of representative fine-grained zero-shot learning methods, covering publicly available datasets, models, implementations, etc. 
 
-Please feel free to contact us if you have any advice.
+Please feel free to contact us ([jingcai.guo@ieee.org](jingcai.guo@ieee.org)) if you have any advice.
 
 # Datasets  
 
