@@ -1,10 +1,8 @@
-# Fine-Grained Zero-Shot Learning: Advances, Challenges, and Prospects
+# On the Element-Wise Representation and Reasoning in Zero-Shot Image Recognition: A Systematic Survey
 
-Recent zero-shot learning (ZSL) approaches have integrated fine-grained analysis, i.e.,**fine-grained ZSL**, to mitigate the commonly known seen/unseen domain bias and misaligned visual-semantics mapping problems, and have made profound progress. Notably, this paradigm differs from existing close-set fine-grained methods and, therefore, can pose unique and nontrivial challenges. However, to the best of our knowledge, there remains a lack of systematic summaries of this topic. To enrich the literature of this domain and provide a sound basis for its future development, in this work, we present a broad review of recent advances for fine-grained analysis in ZSL. Concretely, we first provide a **taxonomy** of existing methods and techniques with a thorough analysis of each category. Then, we summarize the **benchmark**, covering publicly available datasets, models, implementations, and some more details as a library. Last, we sketch out some related **applications**. In addition, we discuss vital **challenges** and suggest **potential future directions**.
+Zero-shot image recognition (ZSIR) aims to recognize and reason in unseen domains by learning generalized knowledge from limited data in the seen domain. The gist of ZSIR is constructing a well-aligned mapping between the input visual space and the target semantic space, which is a bottom-up paradigm inspired by the process by which humans observe the world. In recent years, ZSIR has witnessed significant progress on a broad spectrum, from theory to algorithm design, as well as widespread applications. However, to the best of our knowledge, there remains a lack of a systematic review of ZSIR from an element-wise perspective, i.e., learning fine-grained elements of data and their inferential associations. To fill the gap, this paper thoroughly investigates recent advances in element-wise ZSIR and provides a sound basis for its future development. Concretely, we first integrate three basic ZSIR tasks, i.e., object recognition, compositional recognition, and foundation model-based open-world recognition, into a unified element-wise paradigm and provide a detailed taxonomy and analysis of the main approaches. Next, we summarize the benchmarks, covering technical implementations, standardized datasets, and some more details as a library. Last, we sketch out related applications, discuss vital challenges, and suggest potential future directions.
 
-Note: this is a collection of representative fine-grained zero-shot learning methods, covering publicly available datasets, models, implementations, etc. For more detailed information, refer to the related [**Survey Paper**](https://arxiv.org/pdf/2401.17766).
-
-Please feel free to contact us ([jingcai.guo@ieee.org](jingcai.guo@ieee.org)) if you have any advice.
+The content is continuously under construction and will be updated regularly. Please feel free to contact us ([jingcai.guo@ieee.org](jingcai.guo@ieee.org)) if you have any suggestions.
 
 # Datasets  
 
@@ -75,17 +73,3 @@ Please feel free to contact us ([jingcai.guo@ieee.org](jingcai.guo@ieee.org)) if
 **Title** | **Venue** | **Backbone** | **FineTune** | **Resolution** | **Datasets** | **Code**   
 :-: | :-: | :-  | :-: | :-: | :-: | :-: |
 [Multi-Cue Zero-Shot Learning with Strong Supervision](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Akata_Multi-Cue_Zero-Shot_Learning_CVPR_2016_paper.pdf) | CVPR'16 | VGG16 | ❌ | 224x224 | CUB | Code
-
-## Citation
-
-    @article{guo2024fine,
-      author    = {Jingcai Guo and
-                   Zhijie Rao and
-                   Zhi Chen and
-                   Jingren Zhou and
-                   Dacheng Tao},
-      title     = {Fine-Grained Zero-Shot Learning: Advances, Challenges, and Prospects},
-      journal   = {arXiv preprint arXiv:2401.17766},
-      year      = {2024},
-      url       = {https://arxiv.org/abs/2401.17766}
-    }
